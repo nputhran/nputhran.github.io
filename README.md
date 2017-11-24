@@ -1,1 +1,4 @@
-# nputhran.github.io
+Restaurant
+==========
+
+A template for Restaurant business
