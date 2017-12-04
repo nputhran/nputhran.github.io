@@ -1,0 +1,680 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 10300.17.0728.2252                               -->
+<workbook original-version='10.3' source-build='10.3.2 (10300.17.0728.2252)' source-platform='win' version='10.3' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='AggressiveActions_WithSelectColumns' inline='true' name='federated.1i7ipqv0srd4mj18js4zp077ixow' version='10.3'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='AggressiveActions_WithSelectColumns' name='textscan.16t2q171ek54f511s9c9g07fhe29'>
+            <connection class='textscan' directory='C:/Users/nehap/Documents/GitHub/nputhran.github.io/Dataset' filename='AggressiveActions_WithSelectColumns.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.16t2q171ek54f511s9c9g07fhe29' name='AggressiveActions_WithSelectColumns.csv' table='[AggressiveActions_WithSelectColumns#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Name' ordinal='0' />
+            <column datatype='integer' name='Sorcerer&apos;s Stone' ordinal='1' />
+            <column datatype='integer' name='Chamber of Secret' ordinal='2' />
+            <column datatype='integer' name='Prisoner of Azkaban' ordinal='3' />
+            <column datatype='integer' name='Goblet of Fire' ordinal='4' />
+            <column datatype='integer' name='Order of Pheonix' ordinal='5' />
+            <column datatype='integer' name='Half-Blood Prince' ordinal='6' />
+            <column datatype='integer' name='Deathly Hallows' ordinal='7' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Name]</local-name>
+            <parent-name>[AggressiveActions_WithSelectColumns.csv]</parent-name>
+            <remote-alias>Name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sorcerer&apos;s Stone</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sorcerer&apos;s Stone]</local-name>
+            <parent-name>[AggressiveActions_WithSelectColumns.csv]</parent-name>
+            <remote-alias>Sorcerer&apos;s Stone</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Chamber of Secret</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Chamber of Secret]</local-name>
+            <parent-name>[AggressiveActions_WithSelectColumns.csv]</parent-name>
+            <remote-alias>Chamber of Secret</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Prisoner of Azkaban</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Prisoner of Azkaban]</local-name>
+            <parent-name>[AggressiveActions_WithSelectColumns.csv]</parent-name>
+            <remote-alias>Prisoner of Azkaban</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Goblet of Fire</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Goblet of Fire]</local-name>
+            <parent-name>[AggressiveActions_WithSelectColumns.csv]</parent-name>
+            <remote-alias>Goblet of Fire</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order of Pheonix</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Order of Pheonix]</local-name>
+            <parent-name>[AggressiveActions_WithSelectColumns.csv]</parent-name>
+            <remote-alias>Order of Pheonix</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Half-Blood Prince</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Half-Blood Prince]</local-name>
+            <parent-name>[AggressiveActions_WithSelectColumns.csv]</parent-name>
+            <remote-alias>Half-Blood Prince</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Deathly Hallows</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Deathly Hallows]</local-name>
+            <parent-name>[AggressiveActions_WithSelectColumns.csv]</parent-name>
+            <remote-alias>Deathly Hallows</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[AggressiveActions_WithSelectColumns.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <column datatype='integer' name='[Chamber of Secret]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Deathly Hallows]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Goblet of Fire]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Half-Blood Prince]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='integer' name='[Order of Pheonix]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Prisoner of Azkaban]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Sorcerer&apos;s Stone]' role='measure' type='quantitative' />
+      <column-instance column='[Chamber of Secret]' derivation='Sum' name='[sum:Chamber of Secret:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Deathly Hallows]' derivation='Sum' name='[sum:Deathly Hallows:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Goblet of Fire]' derivation='Sum' name='[sum:Goblet of Fire:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Half-Blood Prince]' derivation='Sum' name='[sum:Half-Blood Prince:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Order of Pheonix]' derivation='Sum' name='[sum:Order of Pheonix:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Prisoner of Azkaban]' derivation='Sum' name='[sum:Prisoner of Azkaban:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Sorcerer&apos;s Stone]' derivation='Sum' name='[sum:Sorcerer&apos;s Stone:qk]' pivot='key' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.376374' measure-ordering='alphabetic' measure-percentage='0.623626' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1i7ipqv0srd4mj18js4zp077ixow].[sum:Chamber of Secret:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1i7ipqv0srd4mj18js4zp077ixow].[sum:Order of Pheonix:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1i7ipqv0srd4mj18js4zp077ixow].[sum:Half-Blood Prince:qk]&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;[federated.1i7ipqv0srd4mj18js4zp077ixow]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.1i7ipqv0srd4mj18js4zp077ixow].[sum:Sorcerer&apos;s Stone:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1i7ipqv0srd4mj18js4zp077ixow].[sum:Goblet of Fire:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.1i7ipqv0srd4mj18js4zp077ixow].[sum:Prisoner of Azkaban:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1i7ipqv0srd4mj18js4zp077ixow].[sum:Deathly Hallows:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.1i7ipqv0srd4mj18js4zp077ixow].[sum:Number of Records:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='AggressiveActions_WithSelectColumns' name='federated.1i7ipqv0srd4mj18js4zp077ixow' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1i7ipqv0srd4mj18js4zp077ixow'>
+            <column datatype='integer' name='[Chamber of Secret]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Deathly Hallows]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Goblet of Fire]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Half-Blood Prince]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Order of Pheonix]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Prisoner of Azkaban]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Sorcerer&apos;s Stone]' role='measure' type='quantitative' />
+            <column-instance column='[Name]' derivation='None' name='[none:Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Chamber of Secret]' derivation='Sum' name='[sum:Chamber of Secret:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Deathly Hallows]' derivation='Sum' name='[sum:Deathly Hallows:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Goblet of Fire]' derivation='Sum' name='[sum:Goblet of Fire:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Half-Blood Prince]' derivation='Sum' name='[sum:Half-Blood Prince:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Order of Pheonix]' derivation='Sum' name='[sum:Order of Pheonix:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Prisoner of Azkaban]' derivation='Sum' name='[sum:Prisoner of Azkaban:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Sorcerer&apos;s Stone]' derivation='Sum' name='[sum:Sorcerer&apos;s Stone:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1i7ipqv0srd4mj18js4zp077ixow].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1i7ipqv0srd4mj18js4zp077ixow].[sum:Chamber of Secret:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1i7ipqv0srd4mj18js4zp077ixow].[sum:Deathly Hallows:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1i7ipqv0srd4mj18js4zp077ixow].[sum:Goblet of Fire:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1i7ipqv0srd4mj18js4zp077ixow].[sum:Half-Blood Prince:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1i7ipqv0srd4mj18js4zp077ixow].[sum:Order of Pheonix:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1i7ipqv0srd4mj18js4zp077ixow].[sum:Prisoner of Azkaban:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1i7ipqv0srd4mj18js4zp077ixow].[sum:Sorcerer&apos;s Stone:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1i7ipqv0srd4mj18js4zp077ixow].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1i7ipqv0srd4mj18js4zp077ixow].[:Measure Names]' value='168' />
+            <format attr='height' field='[federated.1i7ipqv0srd4mj18js4zp077ixow].[:Measure Names]' value='39' />
+            <format attr='width' field='[federated.1i7ipqv0srd4mj18js4zp077ixow].[none:Name:nk]' value='97' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1i7ipqv0srd4mj18js4zp077ixow].[:Measure Names]' value='148' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1i7ipqv0srd4mj18js4zp077ixow].[:Measure Names]' />
+              <size column='[federated.1i7ipqv0srd4mj18js4zp077ixow].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.4172928333282471' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1i7ipqv0srd4mj18js4zp077ixow].[:Measure Names]</rows>
+        <cols>[federated.1i7ipqv0srd4mj18js4zp077ixow].[none:Name:nk]</cols>
+        <pages>
+          <column>[federated.1i7ipqv0srd4mj18js4zp077ixow].[:Measure Names]</column>
+        </pages>
+        <page-trail-options enabled='true' mark-type='all' trail-effect='none' />
+      </table>
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1i7ipqv0srd4mj18js4zp077ixow].[:Measure Names]' type='color' />
+            <card pane-specification-id='0' param='[federated.1i7ipqv0srd4mj18js4zp077ixow].[Multiple Values]' type='size' />
+            <card type='currpage' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <current-page>
+          <multibucket>
+            <bucket>&quot;[federated.1i7ipqv0srd4mj18js4zp077ixow].[sum:Sorcerer&apos;s Stone:qk]&quot;</bucket>
+          </multibucket>
+        </current-page>
+        <selection-collection>
+          <node-selection select-tuples='false'>
+            <oriented-node-reference orientation='horizontal'>
+              <node-reference>
+                <fields>
+                  <field>[federated.1i7ipqv0srd4mj18js4zp077ixow].[:Measure Names]</field>
+                </fields>
+                <multibucket>
+                  <bucket>&quot;[federated.1i7ipqv0srd4mj18js4zp077ixow].[sum:Number of Records:qk]&quot;</bucket>
+                </multibucket>
+              </node-reference>
+              <page-reference>
+                <fields>
+                  <field>[federated.1i7ipqv0srd4mj18js4zp077ixow].[:Measure Names]</field>
+                </fields>
+                <multibucket>
+                  <bucket>&quot;[federated.1i7ipqv0srd4mj18js4zp077ixow].[sum:Prisoner of Azkaban:qk]&quot;</bucket>
+                </multibucket>
+              </page-reference>
+            </oriented-node-reference>
+          </node-selection>
+        </selection-collection>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1i7ipqv0srd4mj18js4zp077ixow].[:Measure Names]</field>
+            <field>[federated.1i7ipqv0srd4mj18js4zp077ixow].[none:Name:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>

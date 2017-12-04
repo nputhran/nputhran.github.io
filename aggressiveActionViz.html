@@ -5,8 +5,9 @@
   display: none;
 }
 
+    
 </style>
-<svg width="1000" height="700"></svg>
+<center><svg width="1000" height="700"></svg></center>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
 
@@ -27,7 +28,7 @@ var y = d3.scaleLinear()
     .rangeRound([height, 0]);
 
 var z = d3.scaleOrdinal()
-    .range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
+    .range(["#BC5F04","#EAD2AC", "#E9967A","#874000", "#8B0000", "#634133","#B86F52"]);
 
 d3.csv("Dataset/AggressiveActions_WithSelectColumns.csv", function(d, i, columns) {
   for (var i = 1, n = columns.length; i < n; ++i) d[columns[i]] = +d[columns[i]];
@@ -54,7 +55,7 @@ d3.csv("Dataset/AggressiveActions_WithSelectColumns.csv", function(d, i, columns
       .attr("y", 650)
       .transition().duration(1500)
       .attr("y", function(d) { return y(d.value); })
-      .attr("height", function(d) { return height - y(d.value); })
+      .attr("height", function(d) { return (height - y(d.value))})
       .attr("fill", function(d) { return z(d.key); });
 
 /*g.append("text")
