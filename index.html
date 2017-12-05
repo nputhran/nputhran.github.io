@@ -24,6 +24,13 @@
 
 </style>
     <body>
+<audio autoplay id="music">
+                        <source src="hp.mp3">
+                    </audio> 
+                    <button class="second-title" onclick="document.getElementById('music').play()">Play Music</button>
+                    <button class="second-title" onclick="document.getElementById('music').pause()">Pause Music</button>
+                    <button class="second-title" onclick="document.getElementById('music').pause(); document.getElementById('myTune').currentTime = 0;">Stop Music</button>
+
 
 
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -46,7 +53,6 @@
                             <li><a class="navactive color_animation" href="#top">WELCOME to Data Wizualization</a></li>
                             <li><a class="color_animation" href="#story">ABOUT</a></li>
                             <li><a class="color_animation" href="#pricing">CHARACTERS</a></li>
-                            <li><a class="color_animation" href="#bread">AGGRESSION ANALYSIS</a></li>
                            
                             
                            <!-- <li><a class="color_animation" href="#beer">BEER</a></li>
